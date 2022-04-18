@@ -11,3 +11,4 @@
 - Step 4: Click on Create.
 - Step 5: Now open Terminal. Go to the folder where you downloaded this repository. For eg: cd /Users/Name/Downloads......
 - Step 6: After that type **bash install.sh adblock_spotify**
+- Now, open the Spotify app & Enjoy!!
