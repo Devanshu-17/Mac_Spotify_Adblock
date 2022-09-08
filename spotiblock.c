@@ -129,6 +129,7 @@ void (*_cef_scroll_view_create)();
 void (*_cef_server_create)();
 void (*_cef_set_crash_key_value)();
 void (*_cef_set_osmodal_loop)();
+void (*_cef_shared_process_message_builder_create)();
 void (*_cef_shutdown)();
 void (*_cef_stream_reader_create_for_data)();
 void (*_cef_stream_reader_create_for_file)();
@@ -343,6 +344,7 @@ HOOK(cef_server_create)
 HOOK(cef_set_crash_key_value)
 HOOK(cef_set_osmodal_loop)
 HOOK(cef_shutdown)
+HOOK(cef_shared_process_message_builder_create)
 HOOK(cef_stream_reader_create_for_data)
 HOOK(cef_stream_reader_create_for_file)
 HOOK(cef_stream_reader_create_for_handler)
@@ -558,6 +560,7 @@ void __attribute__((constructor)) init()
 	_cef_set_crash_key_value = dlsym(handle, "cef_set_crash_key_value");
 	_cef_set_osmodal_loop = dlsym(handle, "cef_set_osmodal_loop");
 	_cef_shutdown = dlsym(handle, "cef_shutdown");
+	_cef_shared_process_message_builder_create = dlsym(handle, "cef_shared_process_message_builder_create");
 	_cef_stream_reader_create_for_data = dlsym(handle, "cef_stream_reader_create_for_data");
 	_cef_stream_reader_create_for_file = dlsym(handle, "cef_stream_reader_create_for_file");
 	_cef_stream_reader_create_for_handler = dlsym(handle, "cef_stream_reader_create_for_handler");
