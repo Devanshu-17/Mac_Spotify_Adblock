@@ -13,4 +13,5 @@
 - Step 6: After that type **bash install.sh adblock_spotify**
 - Now, open the Spotify app & Enjoy!!
 
-**UPDATE: Added support for x86**
+**UPDATE 1: Added support for x86**
+**UPDATE 2: Fixed to run on latest version. Contributed by @ptest13243546**
