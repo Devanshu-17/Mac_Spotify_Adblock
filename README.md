@@ -16,3 +16,5 @@
 **UPDATE 1: Added support for x86**
 
 **UPDATE 2: Fixed to run on latest version. Contributed by @ptest13243546**
+
+**UPDATE 3: Not currently being maintained. Please check (SpotX)[https://github.com/SpotX-CLI/SpotX-Mac]
